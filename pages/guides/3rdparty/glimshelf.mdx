@@ -2,7 +2,7 @@ import { Callout } from 'nextra/components'
 
 # Glimshelf
 
-[Glimshelf](https://glimshelf.com) is a native comic, manga, PDF, and EPUB reader for iPhone and iPad with built-in Kavita support.
+[Glimshelf](https://glimshelf.com) is a native comic, manga, PDF, and EPUB reader for iPhone and iPad with built-in Kavita support. It connects directly to the Kavita API for library browsing, downloads, and reading-progress sync.
 
 <Callout type="info">
   Glimshelf is currently in public beta through [TestFlight](https://testflight.apple.com/join/eCSAAcQF). It requires iOS or iPadOS 18 or later and Kavita 0.9.0.2 or later. The beta includes Pro features; this does not grant a permanent Pro unlock for the future App Store release.
@@ -30,7 +30,7 @@ See [3rd Party Clients](../user-settings/3rdpartycilents) for Kavita's Auth Key 
 3. Tap **Run Connection Doctor** to check connectivity and authentication.
 4. When the connection check succeeds, tap **Save**. Glimshelf can then sync and display your library.
 
-Glimshelf also offers username/password authentication and a Kavita OPDS URL option in the Kavita connection form.
+Glimshelf also offers username/password authentication and a Kavita OPDS URL option in the Kavita connection form. The OPDS URL option extracts the server address and key to establish an API connection; it does not switch the Kavita source to OPDS browsing. Generic OPDS catalogs can be added as a separate source type.
 
 Use an address reachable from your iPhone or iPad. For remote access, use HTTPS or your private VPN connection. Your Kavita account's permissions still apply.
 
