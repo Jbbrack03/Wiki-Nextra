@@ -17,7 +17,7 @@ import { Callout } from 'nextra/components'
 ### Get your Auth Key
 
 1. Sign in to your Kavita server in a web browser.
-2. Open **User Settings** and open the **Auth Keys / OPDS** tab.
+2. In **User Settings**, find the Auth Key controls using the linked Kavita instructions below.
 3. Create a named Auth Key for Glimshelf and copy it. Choose an expiration suitable for your use; an expired key must be replaced in the app.
 
 See [Auth Key and OPDS URL](/guides/user-settings/3rdpartyclients/) for Kavita's Auth Key documentation. Treat this key like a password and enter it only into apps you trust.
@@ -26,8 +26,7 @@ See [Auth Key and OPDS URL](/guides/user-settings/3rdpartyclients/) for Kavita's
 
 1. Enter your **Server URL**, for example `https://kavita.example.com`. Use the server's base URL, including any configured base path.
 2. Choose Auth Key authentication and paste the key into the Auth Key field.
-3. Tap **Run Connection Doctor** to check connectivity and authentication.
-4. When the connection check succeeds, tap **Save**. Glimshelf can then sync and display your library.
+3. Tap **Save** to run the connection check and add the server. If a check fails, Glimshelf shows which step needs attention so you can fix it and try again.
 
 Glimshelf also offers username/password authentication and a Kavita OPDS URL option in the Kavita connection form. The OPDS URL option extracts the server address and key to establish an API connection; it does not switch the Kavita source to OPDS browsing. Generic OPDS catalogs can be added as a separate source type.
 
