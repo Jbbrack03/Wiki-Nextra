@@ -1,0 +1,13 @@
+export default {
+	"mangamanager": "Manga-Manager",
+	"komf": "Komf",
+	"metakavita": "MetaKavita",
+	"comictagger": "ComicTagger",
+	"epub2cbz": "Epub to CBZ",
+	"cbzit": "cbzit",
+	"calibre": "Calibre",
+	"sigil": "Sigil",
+	"obsidian-importer": "Obsidian",
+	"cbz-cover-manager": "CBZ Cover Manager",
+	"cbz-missing-sequence-checker": "CBZ Missing Sequence Checker"
+}
